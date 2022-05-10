@@ -12,7 +12,7 @@ body{
     height: 60px;
 }
 /* estilos de header home */
-header {
+/* header {
     grid-area: header;
 }
 .header-home{
@@ -31,9 +31,9 @@ header {
     max-width: 500px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
-}
+} */
 /* estilos main home */
-.row {
+/* .row {
     width: auto;
     display: flex;
     flex-direction: row;
@@ -82,7 +82,7 @@ header {
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: bold;
-}
+} */
 /* estilos header programas */
 .header-home-programas{
     display: flex;
@@ -268,7 +268,7 @@ header {
     font-size: 15px;
 }
     /* Estilos header home*/
-    .header-home{
+    /* .header-home{
         flex-direction: row;
         align-items: center; 
         justify-content: space-around;
@@ -280,7 +280,7 @@ header {
     }
     .header-home p{
         font-size: 28px;
-    }
+    } */
     /* estilos header programas */
 
     .header-home-programas{
@@ -360,7 +360,7 @@ header {
     font-size: 20px;
 }
     /* Estilos header home*/    
-    .header-home{
+    /* .header-home{
         flex-direction: row;
         align-items: center; 
         justify-content: space-around;
@@ -380,7 +380,7 @@ header {
         animation-duration: 1s;
         animation-delay: 1s;
 
-    }
+    } */
     /* main programas */
     .main-programas h3{
         font-size: 20px;
@@ -415,13 +415,13 @@ header {
 
 /* HOVER */
 
-.container img:hover{
+/* .container img:hover{
     filter: blur(5px);
-}
+} */
 
 /* ANIMACIONES */
 
-@keyframes movimiento-header{
+/* @keyframes movimiento-header{
     0% {
         width: 100px;
     }
@@ -434,7 +434,7 @@ header {
     100% {
         width: 100%;
     }
-}
+} */
 
 
 
