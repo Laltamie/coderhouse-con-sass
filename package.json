@@ -1,7 +1,7 @@
 {
   "name": "coderhouse-con-sass",
   "version": "1.0.0",
-  "description": "Trabajando con Sass",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,7 +18,7 @@
     "url": "https://github.com/Laltamie/coderhouse-con-sass/issues"
   },
   "homepage": "https://github.com/Laltamie/coderhouse-con-sass#readme",
-  "devDependencies": {
+  "dependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
   }

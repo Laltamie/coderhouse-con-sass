@@ -1,0 +1,81 @@
+$numero: 720px;
+
+// OPERACIONES
+
+div{
+    width: $numero/2;
+}
+
+// CONDICIONAL
+
+$animal: perro;
+div{
+    @if $animal == pato{
+        color: blue;
+    } @else if $animal != pato{
+        color: black; 
+    }
+}
+
+// BUCLES
+// to hasta 5, through incluye 6
+
+@for $i from 1 through 6 {
+    // interpolaciones
+    h#{$i}{
+        font-size: 24em / $i;
+    }
+}
+
+// EACH
+
+$lista-colores: red, blue, green, yellow;
+
+@each $color in $lista-colores {
+    .color-#{$color}{
+        background-color: $color;
+    }
+}
+
+// MAPAS
+
+$redes: (
+    twitter: #339be0,
+    facebook: #096daf,
+    instagram: #ee1180,
+);
+
+@each $red, $color in $redes{
+    .red-#{$red} {
+        color: $color;
+    }
+}
+
+// EXTEND
+
+.boton {
+    border: solid 2px;
+    padding: 2px 4px;
+    margin: 8px;
+}
+.boton-primary{
+    @extend.boton;
+    background-color: #0c94ee;
+    border-color: #02273f;
+}
+
+// MIXINS
+
+@mixin size($alto, $ancho, $margen) {
+// tambien puedo definir los valores aca
+    height: $alto;
+    width: $ancho;
+    margin: $margen;
+}
+
+// aplicamos el mixin
+
+div{
+    // y llamamos acá
+    @include size(8px, 16px, 24px);
+}
